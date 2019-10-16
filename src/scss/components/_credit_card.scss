@@ -1,0 +1,52 @@
+.inputs_lg {
+  input {
+    font-size: 17px;
+  }
+  .icon {
+    top: 18px;
+  }
+}
+
+.input_div {
+  font-size: 1.8em;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #ced4da;
+}
+.form-group {
+  .i_absolute {
+    position: absolute;
+    left: 110%;
+    bottom: 10%;
+    font-size: 25px;
+    &.i_ontop {
+      left: initial;
+      right: 15px;
+    }
+  }
+}
+
+.inputs_compact {
+  label {
+    margin-bottom: 0.1rem;
+  }
+  input {
+    font-weight: lighter;
+  }
+  .form-group {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.mask_input {
+  position: absolute;
+  opacity: 0;
+  padding: 0;
+  caret-color: transparent;
+  &.mask_lg {
+    padding: 10px;
+    font-size: 1.8em;
+  }
+}

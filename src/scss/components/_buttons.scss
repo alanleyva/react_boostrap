@@ -1,0 +1,37 @@
+.btn-cart {
+  background-color: $cta-cart;
+  color: $main-color-dark;
+}
+
+.btn_lg {
+  padding: 20px 15px;
+}
+
+.icon_button {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.lg {
+    padding: 30px 20px;
+  }
+  &.fixed_w {
+    width: 250px;
+  }
+  svg {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+.btn_outline_ {
+  &ligth {
+    color: $main-color-light;
+    border-color: $main-color-light;
+    &.selected {
+      color: $color-primary;
+      border-color: $color-primary;
+      border-width: 3px;
+    }
+  }
+}

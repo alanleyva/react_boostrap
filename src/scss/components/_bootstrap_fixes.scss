@@ -1,0 +1,40 @@
+.fade.in {
+  opacity: 1;
+  &.white_bg {
+    background: rgba(255, 255, 255, 0.75);
+  }
+}
+.modal-body {
+  & .scrolleable {
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.modal-backdrop.in {
+  opacity: 0.5;
+}
+.modal.vertical_center.in {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.form-check-input {
+  &.revert {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+.form-check-label {
+  &.revert {
+    padding-left: 0.25rem;
+  }
+}

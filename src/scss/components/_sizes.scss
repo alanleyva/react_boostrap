@@ -1,0 +1,78 @@
+.max_vh {
+  &_75 {
+    max-height: 75vh;
+  }
+  &_70 {
+    max-height: 70vh;
+  }
+  &_60 {
+    max-height: 60vh;
+  }
+}
+.fix_vh {
+  &_75 {
+    height: 75vh;
+  }
+  &_70 {
+    height: 70vh;
+  }
+  &_60 {
+    height: 60vh;
+  }
+  &_50 {
+    height: 50vh;
+  }
+  &_40 {
+    height: 40vh;
+  }
+  &_30 {
+    height: 30vh;
+  }
+}
+
+.min_vh_ {
+  @for $i from 1 through 9 {
+    &#{$i} {
+      min-height: $i * 10vh !important;
+    }
+  }
+}
+.min_width_ {
+  @for $i from 1 through 9 {
+    &#{$i} {
+      min-width: $i * 10% !important;
+    }
+  }
+}
+.width_ {
+  @for $i from 1 through 9 {
+    &#{$i} {
+      width: $i * 10% !important;
+    }
+  }
+}
+.max_width_ {
+  @for $i from 1 through 9 {
+    &#{$i} {
+      max-width: $i * 10% !important;
+    }
+  }
+}
+.p {
+  @for $i from 10 through 50 {
+    &y-#{$i} {
+      padding-top: $i * 10px !important;
+      padding-bottom: $i * 10px !important;
+    }
+  }
+  @for $i from 10 through 50 {
+    &t-#{$i} {
+      padding-top: $i * 10px !important;
+    }
+  }
+  @for $i from 10 through 50 {
+    &b-#{$i} {
+      padding-bottom: $i * 10px !important;
+    }
+  }
+}

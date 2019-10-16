@@ -1,0 +1,70 @@
+.main_color_bg {
+  background-color: $main-color;
+}
+
+.bg_partner {
+  background-color: $partner-color;
+}
+
+.bg_warning {
+  background-color: $cust-color-warning !important;
+}
+.bg_black {
+  background-color: black;
+}
+
+.outline_danger {
+  border: 1px solid $color-danger;
+}
+.outline_partner {
+  border: 1px solid $partner-color;
+}
+
+.bg-dark {
+  color: white;
+  h1,
+  h2,
+  a {
+    color: white;
+  }
+  p {
+    color: #f3e8ee;
+  }
+  .icon_img {
+    background-color: #ead2ac;
+  }
+}
+.bg_blue_light {
+  color: #3d4654;
+  background-color: #e1f0f4;
+  h1,
+  h2,
+  a {
+    color: #3d4654;
+  }
+  p {
+    color: #3d4654;
+  }
+  .icon_img {
+    background-color: #f9f9ed;
+  }
+}
+.bg-light {
+  h1,
+  h2,
+  a {
+    color: #3d4654;
+  }
+  p {
+    color: #3d4654;
+  }
+  .icon_img {
+    background-color: #3d4654;
+    color: #f9f9ed;
+  }
+}
+
+.badge_light {
+  color: #424242;
+  background-color: #f5f5f5;
+}

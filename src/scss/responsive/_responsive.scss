@@ -1,0 +1,76 @@
+/// affect single segment of screen sizes
+@media (max-width: 575px) {
+  body {
+    margin-bottom: $footer-height-xs;
+  }
+  .footer {
+    height: $footer-height-xs;
+  }
+  .main_background {
+    padding-top: 90px;
+  }
+  .xs_hidden {
+    display: none;
+  }
+  .xs_hidden_opacity {
+    opacity: 0 !important;
+  }
+}
+@media (min-width: $screen-sm-min) {
+  .container {
+    max-width: 1200px;
+  }
+  .woocommerce-active .site-header .site-branding {
+    width: 60%;
+  }
+  .woocommerce-active .site-header .site-search {
+    float: left;
+    width: 35%;
+    margin: 0;
+  }
+  .primary-navigation {
+    float: left;
+  }
+  .site-header-cart .widget_shopping_cart {
+    min-width: 250px;
+  }
+  .woocommerce-active .site-header .site-header-cart {
+    float: left;
+    width: 30%;
+  }
+  .make_half {
+    width: 49%;
+    padding: 0;
+    display: inline-block;
+  }
+  .make_half:first-child {
+    padding-left: 15px;
+  }
+  .make_half:last-child {
+    padding-right: 15px;
+  }
+  nav#site-navigation {
+    width: 60%;
+  }
+  .main-navigation ul.menu > li > a,
+  .main-navigation ul.nav-menu > li > a,
+  .site-header-cart .cart-contents {
+    padding: 10px;
+  }
+  .woocommerce-active .site-header .site-branding {
+    margin-bottom: 0;
+  }
+  .main-navigation ul.menu,
+  .main-navigation ul.nav-menu {
+    margin-left: 0;
+  }
+  header#masthead {
+    padding-top: 15px;
+  }
+} // end of $screen-sm-min
+
+@media (min-width: $screen-md-min) {
+} // end of $screen-md-min
+
+@media (min-width: $screen-lg-min) {
+} // end of $screen-lg-min

@@ -1,0 +1,47 @@
+.text_main {
+  color: $main-color;
+}
+
+.text_default {
+  color: $text-default;
+}
+
+.text_success {
+  color: $color-success;
+}
+
+.word_break {
+  -ms-word-break: break-all;
+  word-break: break-all;
+
+  /* Non standard for WebKit */
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+$i: 5;
+@while $i > 0 {
+  .display-#{$i} {
+    @extend .word_break;
+  }
+  $i: $i - 1;
+}
+
+.breadcrumbs {
+  span {
+    font-size: 14px;
+    color: $text-light;
+    &:not(:last-child) {
+      &:after {
+        margin: 0 5px;
+        content: " > ";
+      }
+    }
+    &.active {
+      color: darken($color: $text-light, $amount: 28);
+    }
+  }
+}

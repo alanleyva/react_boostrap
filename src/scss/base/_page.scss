@@ -1,0 +1,125 @@
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  border-radius: 5px;
+}
+input#woocommerce-product-search-field-0 {
+  background: white;
+}
+
+.d_flex {
+  display: flex;
+}
+.align_items_center {
+  align-items: center;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 310px;
+  width: 100%;
+  color: #bed8f3;
+}
+.footer .items-cont {
+  padding: 25px 10px;
+}
+.footer a.nav-link {
+  color: #bed8f3;
+}
+.footer a.nav-link:hover {
+  color: #fff;
+}
+.footer .footer-info {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.footer .footer-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-info h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.625rem;
+}
+.footer .footer-info li a {
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  font-weight: 300;
+  opacity: 0.5;
+  font-size: 80%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+.footer .social_media a {
+  color: #fff;
+}
+
+.opacity_2 {
+  opacity: 0.2 !important;
+}
+.opacity_5 {
+  opacity: 0.5 !important;
+}
+.opacity_7 {
+  opacity: 0.7 !important;
+}
+
+.price .woocommerce-Price-amount.amount {
+  font-size: 2em;
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 0.5;
+  color: #333;
+  font-weight: bold;
+}
+.price del .woocommerce-Price-amount.amount {
+  font-size: 1em;
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #757576;
+  line-height: 0.5;
+}
+
+trp-wrap.trp-wrap {
+  display: none;
+}
+.posted_in a,
+.tagged_as a {
+  margin-right: 10px;
+  color: #333;
+}
+.posted_in,
+.tagged_as {
+  color: transparent;
+}
+
+.posted_in a::before,
+.tagged_as a::before {
+  content: "#";
+}
+
+.stock.in-stock {
+  display: none;
+}
+img.attachment-woocommerce_gallery_thumbnail.size-woocommerce_gallery_thumbnail {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.pwb-single-product-brands.pwb-clearfix {
+  border-bottom: 2px solid #f3f3f3;
+  padding-bottom: 25px;
+}
+.pwb-single-product-brands a {
+  font-size: 23px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+}

@@ -1,0 +1,119 @@
+.scrolleable {
+  thead,
+  tbody {
+    display: block;
+  }
+
+  tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  &.scroll_active {
+    overflow-y: scroll;
+  }
+}
+
+.table_sm {
+  font-size: 0.8em;
+}
+
+.table_xs td,
+.table_xs th {
+  padding: 0 0.3rem;
+  line-height: 1.1;
+}
+.table_no_border {
+  td,
+  th {
+    border: none;
+  }
+}
+
+.pricing_table {
+  article {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+  }
+  ul {
+    display: flex;
+    top: 0px;
+    z-index: 10;
+    padding-bottom: 14px;
+  }
+  li {
+    list-style: none;
+    flex: 1;
+  }
+  li:last-child {
+    border-right: 1px solid #ddd;
+  }
+  button {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-right: 0;
+    border-top: 0;
+    padding: 10px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 60px;
+    color: #999;
+  }
+  li.active button {
+    background: #f5f5f5;
+    color: #000;
+  }
+  table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+  th {
+    display: none;
+  }
+  td,
+  th {
+    height: 53px;
+    padding: 10px;
+    empty-cells: show;
+    text-align: left;
+    width: auto;
+  }
+  td + td,
+  th + th {
+    text-align: center;
+    display: none;
+  }
+  td.default {
+    display: table-cell;
+  }
+  .bg-purple {
+    border-top: 3px solid #a32362;
+  }
+  .bg-blue {
+    border-top: 3px solid #0097cf;
+  }
+  .sep {
+    background: #f5f5f5;
+    font-weight: bold;
+  }
+  .txt-l {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .txt-top {
+    position: relative;
+    top: -9px;
+    left: -2px;
+  }
+  .tick {
+    font-size: 18px;
+    color: #2ca01c;
+  }
+  .hide {
+    border: 0;
+    background: none;
+  }
+}

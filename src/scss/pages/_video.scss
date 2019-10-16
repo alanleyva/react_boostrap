@@ -1,0 +1,45 @@
+.video-info {
+  background-color: $main-color-dark;
+  height: 100vh;
+  h1 {
+    color: $main-color;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    padding: 15px 20px;
+    color: $text-light;
+  }
+}
+
+.video-frame {
+  border: 3px solid $main-color-ligth-dark;
+  width: 250px;
+  margin: 10px;
+  &.selected {
+    border: 3px solid white;
+  }
+}
+
+.category-name {
+  color: white;
+}
+.selected-area {
+  width: 40%;
+}
+.videos-area {
+  width: 60%;
+  overflow-x: hidden;
+  .flex-nowrap {
+    overflow-x: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+  }
+
+  .video-row {
+    overflow: hidden;
+  }
+}

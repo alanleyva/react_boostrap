@@ -1,0 +1,15 @@
+.cart-page {
+  min-height: 80vh;
+  .left-col {
+    background: #fafafa;
+    a,
+    p {
+      color: #807182;
+      font-size: 14px;
+    }
+  }
+  .badge {
+    position: absolute;
+    right: 5px;
+  }
+}

@@ -1,0 +1,49 @@
+.fixed_top {
+  position: fixed;
+  top: 75px;
+  z-index: $zindex-fixed;
+}
+
+.fixed_bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: $zindex-fixed;
+}
+
+.form-absolute {
+  position: absolute;
+  width: 100%;
+  top: 23px;
+  z-index: 10;
+}
+
+.fixed_right {
+  right: 0;
+  left: auto;
+}
+
+.z_index {
+  &_1 {
+    z-index: $zindex-dropdown !important;
+  }
+  &_2 {
+    z-index: $zindex-sticky !important;
+  }
+  &_3 {
+    z-index: $zindex-fixed !important;
+  }
+  &_4 {
+    z-index: $zindex-modal-backdrop !important;
+  }
+  &_5 {
+    z-index: $zindex-modal !important;
+  }
+  &_6 {
+    z-index: $zindex-popover !important;
+  }
+  &_7 {
+    z-index: $zindex-tooltip !important;
+  }
+}
